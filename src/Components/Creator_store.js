@@ -1,3 +1,4 @@
+
 import styled from 'styled-components';
 
 export const CampaignMarketContentStyled = styled.div`
@@ -18,6 +19,14 @@ export const CampaignMarketParticlesWrapper = styled.div`
   position: absolute;
   top: 18px;
   right: 0;
+
+  img {
+    max-width: 28px;
+    width: 100%;
+    height: auto;
+    max-height: 38px;
+    box-sizing: 'border-box';
+  }
 `;
 
 export const CreatorStyledInnerWrapper = styled.div`
@@ -62,6 +71,22 @@ export const CreatorStyledRateBox = styled.div`
   background: white;
   box-shadow: rgba(240, 97, 86, 0.1) 5px 12px 21px;
 
+  h5 {
+    font-size: 14px;
+    font-family: 'ProximaNova, "sans-serif"';
+    line-height: 14px;
+    color: rgb(255, 78, 83);
+    margin: 2px;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: 'ProximaNova, "sans-serif"';
+    margin: 0px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   @media (max-width: 766px) {
     font-size: 10px;
     right: -190px;
@@ -75,7 +100,7 @@ export const CreatorStyledRateBox = styled.div`
     top: 18px;
     padding: 6px;
   }
-`;
+};
 
 export const ImageWrapper = styled.div`
   vertical-align: baseline;
@@ -114,7 +139,7 @@ export const CampaignMarketSection = styled.section`
   background: rgb(255, 246, 246);
   padding: 100px 0;
   z-index: -1;
-  height: 150vh;
+  height: 1000px;
   font-family: ProximaNova, 'sans-serif';
 `;
 
@@ -144,6 +169,7 @@ export const PopupWrapper = styled.div`
     font-weight: bold;
     color: white;
   }
+
   @media (max-width: 766px) {
     position: absolute;
     background: linear-gradient(
@@ -158,10 +184,11 @@ export const PopupWrapper = styled.div`
     padding: 10px;
     opacity: 0.7;
     width: 100%;
-    height: 30px;
+    max-height: 30px;
     max-width: 600px;
     display: flex;
     align-items: center;
+    height: auto;
 
     h2 {
       margin-left: auto;
@@ -176,10 +203,11 @@ export const StyledH3 = styled.h3`
   max-width: 456px;
   max-height: 144px;
   font-size: 42px;
+  width: 100%;
+  height: auto;
   line-height: 47px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 10px;
   font-weight: 400;
-  margin-left: 10px;
   font-family: 'ProximaNova, Arial, sans-serif';
 
   @media (max-width: 766px) {
@@ -198,19 +226,23 @@ export const StyledSpan = styled.span`
 `;
 
 export const StyledP = styled.div`
-  margin-top: 60px;
+  margin: 60px 0 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
-  margin-left: 10px;
+  margin: 0 0 0 10px;
   font-family: 'ProximaNova, "sans-serif"';
+
   @media (max-width: 766px) {
     font-size: 11px;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
   }
 `;
 
-export const StyledSpanP = styled.div`
+export const StyledSpanP = styled.div
+
+`
   vertical-align: baseline;
   box-sizing: border-box;
 `;
+```

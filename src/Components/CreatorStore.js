@@ -25,37 +25,14 @@ const CreatorStore = () => {
             <img
               src={'https://spreadd.io/assets/home/left-dot-patch.svg'}
               alt="Logo"
-              width={'28'}
-              height={'38'}
-              style={{ boxSizing: 'border-box' }}
             />
           </CampaignMarketParticlesWrapper>
 
           <CreatorStyledInnerWrapper>
             <CreatorStyledLeftInner>
               <CreatorStyledRateBox>
-                <h5
-                  style={{
-                    fontSize: '14px',
-                    fontFamily: 'ProximaNova, "sans-serif"',
-                    lineHeight: '14px',
-                    color: 'rgb(255, 78, 83)',
-                    margin: '0.1em',
-                    fontWeight: 'bold',
-                  }}
-                >
-                  100+
-                </h5>
-                <p
-                  style={{
-                    fontFamily: 'ProximaNova, "sans-serif"',
-                    margin: '0px',
-                    fontSize: '14px',
-                    lineHeight: '22px',
-                  }}
-                >
-                  Happy Customers
-                </p>
+                <h5>100+</h5>
+                <p>Happy Customers</p>
               </CreatorStyledRateBox>
               <ImageWrapper>
                 <img

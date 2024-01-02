@@ -10,8 +10,7 @@ export const SectionSpreadAcademy = styled.section`
   background: rgb(255, 246, 246);
   padding: 100px 0;
   z-index: -1;
-  height: 150vh;
-  font-family: ProximaNova, 'sans-serif';
+  height: 1000px;
 
   &::before {
     content: '';
@@ -20,8 +19,10 @@ export const SectionSpreadAcademy = styled.section`
     left: 0px;
     background: url('https://spreadd.io/assets/home/left-dot-patch.svg')
       no-repeat;
-    width: 46px;
-    height: 37px;
+    max-width: 46px;
+    max-height: 37px;
+    height:auto
+    width:100%;
   }
 
   ${smallScreen} {
@@ -31,7 +32,7 @@ export const SectionSpreadAcademy = styled.section`
 
 export const SpreadAcademyContainer = styled.div`
   width: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
 `;
 
 export const SpreadInnerWrapper = styled.div`
@@ -50,11 +51,10 @@ export const SpreadInnerWrapper = styled.div`
 export const SpreadLeftInner = styled.div`
   max-width: 49%;
   width: 100%;
-  margin-right: 100px;
+  margin: 0 100px 0 0;
 
   ${smallScreen} {
-    margin-right: 0;
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
   }
 `;
 
@@ -73,8 +73,10 @@ export const SpreadImageWrapper = styled.div`
     content: '';
     position: absolute;
     top: -18px;
-    width: 96px;
-    height: 96px;
+     height:auto
+    width:100%;
+    max-width: 96px;
+    max-height: 96px;
     z-index: -1;
   }
 
@@ -112,41 +114,39 @@ export const SpreadAcademyQuote = styled.div`
   padding: 10px;
   display: flex;
   align-items: center;
-  max-width: 260px;
-  width: 100%;
   max-width: 230px;
+  width: 100%;
+
   img {
     max-width: 30px;
     width: 100%;
-    height: 30px;
+    height: auto;
+    max-height: 30px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
   }
 `;
 
 export const SpanStyled = styled.div`
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.5;
-  color: white;
+  font: 600 12px/1.5 white;
   text-align: left;
 `;
 
 export const SpreadRightInner = styled.div`
   max-width: 49%;
   width: 100%;
-  margin-left: 100px;
+  margin: 0 0 0100px;
 
   ${smallScreen} {
     max-width: 100%;
-    padding: 0px;
+    padding: 0;
   }
 `;
 
 export const SpreadRightDetails = styled.div`
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
   font: inherit;
   vertical-align: baseline;
 `;
@@ -154,20 +154,19 @@ export const SpreadRightDetails = styled.div`
 export const SpreadAcadameyTag = styled.div`
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) translateX(50%);
-  font-size: 15px;
-  line-height: 1.5;
-  font-weight: 400;
+  font: 400;
   color: black;
   background: linear-gradient(50deg, white, transparent);
   padding: 8px 12px;
-  margin-bottom: 25px;
+  margin: 0 0 25px 0;
   width: max-content;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+
   ${smallScreen} {
-    max-width: 100%;
-    padding: 0px;
-    margin-right: 130px;
+    width: 100%;
+    padding: 0;
+    margin: 0 130px 0 0;
   }
 `;
