@@ -287,10 +287,11 @@ export const SpreadAcadameyTag = styled.div`
   }
 `;
 
-export const StyledText = styled.h3`
+export const StyledText = styled.div`
   max-height: 144px;
   width: 100%;
   height: auto;
+  font-size: 40px;
   font-weight: 400;
   font-family: 'ProximaNova', san-serif;
 
@@ -310,7 +311,7 @@ export const StyledText = styled.h3`
   }
 `;
 
-export const StyledSpan = styled.p`
+export const StyledSpan = styled.div`
   @media (max-width: 720px) {
     font-size: 20px;
     margin: 0 -70px 0 0;
@@ -326,7 +327,7 @@ export const StyledParagraph = styled.div`
   font-weight: 400;
   font-size: 14px;
   line-height: 23px;
-  margin: 28px 0 0 10px;
+  margin: 28px 0 0 5px;
   font-family: 'ProximaNova', san-serif;
 
   @media (max-width: 720px) {
