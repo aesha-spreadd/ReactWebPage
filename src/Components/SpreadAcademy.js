@@ -11,8 +11,11 @@ import {
   SpreadRightInner,
   SpreadRightDetails,
   SpreadAcadameyTag,
-} from './Spread_Acadamey';
-import { StyledP, StyledH3, StyledSpanP, StyledSpan } from './Creator_store';
+  StyledParagraph,
+  StyledText,
+  StyledSpanText,
+  StyledSpan,
+} from './SpreadAcademeyStyled';
 
 const SpreadAcademy = () => {
   return (
@@ -42,28 +45,25 @@ const SpreadAcademy = () => {
             <SpreadRightInner>
               <SpreadRightDetails>
                 <SpreadAcadameyTag>Spreadd Academy</SpreadAcadameyTag>
-                <StyledH3>
+                <StyledText>
                   <StyledSpan>Create courses and</StyledSpan>
-                  <br></br>
                   <StyledSpan>curriculums for your</StyledSpan>
-                  <br></br>
                   <StyledSpan>collaborators/followers</StyledSpan>
-                  <br></br>
-                </StyledH3>
-                <StyledP>
-                  <StyledSpanP>
+                </StyledText>
+                <StyledParagraph>
+                  <StyledSpanText>
                     We have got a host of features that can enable you to
                     skyrocket your
-                  </StyledSpanP>
-                  <StyledSpanP>
+                  </StyledSpanText>
+                  <StyledSpanText>
                     workshop and course sales. Empower your collaborators by
                     delivering
-                  </StyledSpanP>
-                  <StyledSpanP>
+                  </StyledSpanText>
+                  <StyledSpanText>
                     deeply engaging experience wherever they are, anytime,
                     anywhere.
-                  </StyledSpanP>
-                </StyledP>
+                  </StyledSpanText>
+                </StyledParagraph>
               </SpreadRightDetails>
             </SpreadRightInner>
           </SpreadInnerWrapper>

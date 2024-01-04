@@ -1,33 +1,36 @@
 import React from 'react';
+
 import {
-  CampaignMarketContentStyled,
+  CampaignMarketContainer,
   CampaignMarketSection,
   CampaignMarketParticlesWrapper,
   CreatorStyledInnerWrapper,
   CreatorStyledLeftInner,
   CreatorStyledRateBox,
   ImageWrapper,
-  StyledH3,
+  StyledText,
   StyledSpan,
   CreatorsStore,
   RightInnerWrapper,
   PopupWrapper,
-  StyledSpanP,
-  StyledP,
-} from './Creator_store';
+  RightWrapperContent,
+  StyledSpanText,
+  StyledParagraph,
+  GlobalStyles,
+} from './CreatorsStoreStyled';
 
 const CreatorStore = () => {
   return (
     <div>
+      <GlobalStyles />
       <CampaignMarketSection>
-        <CampaignMarketContentStyled>
+        <CampaignMarketContainer>
           <CampaignMarketParticlesWrapper>
             <img
               src={'https://spreadd.io/assets/home/left-dot-patch.svg'}
               alt="Logo"
             />
           </CampaignMarketParticlesWrapper>
-
           <CreatorStyledInnerWrapper>
             <CreatorStyledLeftInner>
               <CreatorStyledRateBox>
@@ -38,7 +41,6 @@ const CreatorStore = () => {
                 <img
                   src={'https://spreadd.io/assets/home/iphone.png'}
                   alt="iPhone"
-                  style={{ maxWidth: '380px', top: '-220px' }}
                 />
               </ImageWrapper>
               <PopupWrapper>
@@ -46,32 +48,29 @@ const CreatorStore = () => {
               </PopupWrapper>
             </CreatorStyledLeftInner>
             <RightInnerWrapper>
-              <div className="RightWrapperContent">
+              <RightWrapperContent>
                 <CreatorsStore>Creator Store</CreatorsStore>
-                <StyledH3>
+                <StyledText>
                   <StyledSpan>Curate your</StyledSpan>
-                  <br></br>
                   <StyledSpan>products and turn</StyledSpan>
-                  <br></br>
                   <StyledSpan>your content shop-</StyledSpan>
-                  <br></br>
                   <StyledSpan>able</StyledSpan>
-                </StyledH3>
-                <StyledP>
-                  <StyledSpanP>
+                </StyledText>
+                <StyledParagraph>
+                  <StyledSpanText>
                     Apply to create your own store. You can choose brands
-                  </StyledSpanP>
-                  <StyledSpanP>
+                  </StyledSpanText>
+                  <StyledSpanText>
                     and display their product within your own store. You can
-                  </StyledSpanP>
-                  <StyledSpanP>
+                  </StyledSpanText>
+                  <StyledSpanText>
                     get paid on every sale brand makes through you
-                  </StyledSpanP>
-                </StyledP>
-              </div>
+                  </StyledSpanText>
+                </StyledParagraph>
+              </RightWrapperContent>
             </RightInnerWrapper>
           </CreatorStyledInnerWrapper>
-        </CampaignMarketContentStyled>
+        </CampaignMarketContainer>
       </CampaignMarketSection>
     </div>
   );
