@@ -9,6 +9,7 @@ import {
   CreatorStyledRateBox,
   ImageWrapper,
   StyledText,
+  StyledTitle,
   StyledSpan,
   CreatorsStore,
   RightInnerWrapper,
@@ -51,10 +52,10 @@ const CreatorStore = () => {
               <RightWrapperContent>
                 <CreatorsStore>Creator Store</CreatorsStore>
                 <StyledText>
-                  <StyledSpan>Curate your</StyledSpan>
-                  <StyledSpan>products and turn</StyledSpan>
-                  <StyledSpan>your content shop-</StyledSpan>
-                  <StyledSpan>able</StyledSpan>
+                  <StyledTitle>Curate your</StyledTitle>
+                  <StyledTitle>products and turn</StyledTitle>
+                  <StyledTitle>your content shop-</StyledTitle>
+                  <StyledTitle>able</StyledTitle>
                 </StyledText>
                 <StyledParagraph>
                   <StyledSpanText>

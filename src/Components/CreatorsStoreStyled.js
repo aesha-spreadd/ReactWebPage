@@ -228,7 +228,7 @@ export const StyledText = styled.h3`
   }
 `;
 
-export const StyledSpan = styled.p`
+export const StyledTitle = styled.p`
   line-height: 0;
 
   @media (max-width: 766px) {

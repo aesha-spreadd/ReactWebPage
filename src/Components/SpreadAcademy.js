@@ -7,14 +7,14 @@ import {
   SpreadStyledDetails,
   SpreadImageWrapper,
   SpreadAcademyQuote,
-  SpanStyled,
+  SpanStyledText,
   SpreadRightInner,
   SpreadRightDetails,
   SpreadAcadameyTag,
   StyledParagraph,
   StyledText,
-  StyledSpanText,
-  StyledSpan,
+  StyledParagraphText,
+  StyledTitle,
 } from './SpreadAcademeyStyled';
 
 const SpreadAcademy = () => {
@@ -36,9 +36,9 @@ const SpreadAcademy = () => {
                     src={'https://spreadd.io/assets/home/academy.jpg'}
                     alt="Logo"
                   />
-                  <SpanStyled>
+                  <SpanStyledText>
                     Amazing course, i would definetely recommend
-                  </SpanStyled>
+                  </SpanStyledText>
                 </SpreadAcademyQuote>
               </SpreadStyledDetails>
             </SpreadLeftInner>
@@ -46,23 +46,23 @@ const SpreadAcademy = () => {
               <SpreadRightDetails>
                 <SpreadAcadameyTag>Spreadd Academy</SpreadAcadameyTag>
                 <StyledText>
-                  <StyledSpan>Create courses and</StyledSpan>
-                  <StyledSpan>curriculums for your</StyledSpan>
-                  <StyledSpan>collaborators/followers</StyledSpan>
+                  <StyledTitle>Create courses and</StyledTitle>
+                  <StyledTitle>curriculums for your</StyledTitle>
+                  <StyledTitle>collaborators/followers</StyledTitle>
                 </StyledText>
                 <StyledParagraph>
-                  <StyledSpanText>
+                  <StyledParagraphText>
                     We have got a host of features that can enable you to
                     skyrocket your
-                  </StyledSpanText>
-                  <StyledSpanText>
+                  </StyledParagraphText>
+                  <StyledParagraphText>
                     workshop and course sales. Empower your collaborators by
                     delivering
-                  </StyledSpanText>
-                  <StyledSpanText>
+                  </StyledParagraphText>
+                  <StyledParagraphText>
                     deeply engaging experience wherever they are, anytime,
                     anywhere.
-                  </StyledSpanText>
+                  </StyledParagraphText>
                 </StyledParagraph>
               </SpreadRightDetails>
             </SpreadRightInner>

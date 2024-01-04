@@ -242,7 +242,7 @@ export const SpreadAcademyQuote = styled.div`
   }
 `;
 
-export const SpanStyled = styled.div`
+export const SpanStyledText = styled.div`
   font-weight: 600;
   font-size: 12px;
   line-height: 1.5;
@@ -311,7 +311,7 @@ export const StyledText = styled.div`
   }
 `;
 
-export const StyledSpan = styled.div`
+export const StyledTitle = styled.div`
   @media (max-width: 720px) {
     font-size: 20px;
     margin: 0 -70px 0 0;
@@ -341,4 +341,4 @@ export const StyledParagraph = styled.div`
   }
 `;
 
-export const StyledSpanText = styled.div``;
+export const StyledParagraphText = styled.div``;
