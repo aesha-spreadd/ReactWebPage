@@ -51,16 +51,12 @@ const CreatorStore = () => {
               <RightWrapperContent>
                 <CreatorsStore>Creator Store</CreatorsStore>
                 <StyledText>
-                  <div>
-                    Curate your products and turn your content shop- able
-                  </div>
+                  Curate your products and turn your content shop- able
                 </StyledText>
                 <StyledParagraph>
-                  <div>
-                    Apply to create your own store. You can choose brands and
-                    display their product within your own store. You can get
-                    paid on every sale brand makes through you.
-                  </div>
+                  Apply to create your own store. You can choose brands and
+                  display their product within your own store. You can get paid
+                  on every sale brand makes through you.
                 </StyledParagraph>
               </RightWrapperContent>
             </RightInnerWrapper>

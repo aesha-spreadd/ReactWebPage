@@ -44,18 +44,14 @@ const SpreadAcademy = () => {
               <SpreadRightDetails>
                 <SpreadAcadameyTag>Spreadd Academy</SpreadAcadameyTag>
                 <StyledText>
-                  <div>
-                    Create courses and curriculums for your
-                    collaborators/followers
-                  </div>
+                  Create courses and curriculums for your
+                  collaborators/followers
                 </StyledText>
                 <StyledParagraph>
-                  <div>
-                    We have got a host of features that can enable you to
-                    skyrocket your workshop and course sales. Empower your
-                    collaborators by delivering deeply engaging experience
-                    wherever they are, anytime, anywhere.
-                  </div>
+                  We have got a host of features that can enable you to
+                  skyrocket your workshop and course sales. Empower your
+                  collaborators by delivering deeply engaging experience
+                  wherever they are, anytime, anywhere.
                 </StyledParagraph>
               </SpreadRightDetails>
             </SpreadRightInner>
