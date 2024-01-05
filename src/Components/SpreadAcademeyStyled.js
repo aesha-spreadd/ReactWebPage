@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { GlobalStyles } from './CreatorsStoreStyled';
 
-const smallScreen = `@media (max-width: 720px)`;
+const smallScreen = `@media (max-width: 767px)`;
 export const SectionSpreadAcademy = styled.section`
   position: relative;
   background: #fff6f6;
@@ -18,8 +18,8 @@ export const SectionSpreadAcademy = styled.section`
 
   &::before {
     content: '';
-    left: 0;
     position: absolute;
+    left: 0;
     top: 18px;
     background: url('https://spreadd.io/assets/home/left-dot-patch.svg')
       no-repeat;
@@ -34,27 +34,29 @@ export const SectionSpreadAcademy = styled.section`
 
 export const SpreadAcademyContainer = styled.div`
   width: 100%;
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
 `;
 
 export const SpreadInnerWrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   max-width: 1500px;
+  width: 100%;
 
   ${smallScreen} {
     flex-direction: column-reverse;
     max-width: 1500px;
+    width: 100%;
   }
 `;
 
 export const SpreadLeftInner = styled.div`
   max-width: 49%;
   width: 100%;
+  margin: 0 0 0 40px;
   display: flex;
   justify-content: flex-start;
-  margin: 0 0 0 40px;
   @media (max-width: 870px) {
     margin: 0 90px 0 40px;
   }
@@ -97,11 +99,11 @@ export const SpreadImageWrapper = styled.div`
 
   img {
     width: 100%;
-    border-radius: 20px;
     max-width: 280px;
+    border-radius: 20px;
     margin: 0 0 0 50px;
   }
-  @media (max-width: 1200px) and @media(max-width:1100px) {
+  @media (max-width: 1199px) {
     &::before,
     &::after {
       width: 96px;
@@ -109,24 +111,24 @@ export const SpreadImageWrapper = styled.div`
     }
 
     &::before {
-      left: 70px;
-      top: -13px;
+      left: -24px;
+      top: -7px;
     }
 
     &::after {
-      left: 14%;
+      left: -15%;
       top: 314px;
     }
 
     img {
       width: 100%;
-      border-radius: 20px;
       max-width: 280px;
+      border-radius: 20px;
       margin: 20px 0 0;
     }
   }
 
-  @media (max-width: 970px) {
+  @media (max-width: 991px) {
     &::before,
     &::after {
       width: 96px;
@@ -139,18 +141,18 @@ export const SpreadImageWrapper = styled.div`
     }
 
     &::after {
-      left: 3%;
-      top: 300px;
+      left: -11%;
+      top: 310px;
     }
 
     img {
       width: 100%;
-      border-radius: 20px;
       max-width: 280px;
+      border-radius: 20px;
       margin: 20px 0 0;
     }
   }
-  @media (max-width: 870px) {
+  @media (max-width: 769px) {
     &::before,
     &::after {
       width: 96px;
@@ -158,43 +160,32 @@ export const SpreadImageWrapper = styled.div`
     }
 
     &::before {
-      left: 28px;
+      left: -25px;
       top: -10px;
     }
 
     &::after {
-      left: 4%;
-      top: 312px;
+      left: -21%;
+      top: 221px;
     }
 
     img {
       width: 100%;
+      max-width: 200px;
       border-radius: 20px;
-      max-width: 280px;
       margin: 20px 0 0;
     }
   }
-  ${smallScreen} {
-    &::before,
+  @media (max-width: 575px) {
     &::after {
-      width: 96px;
-      height: 96px;
+      left: -22%;
+      top: 221px;
     }
-
-    &::before {
-      left: 29px;
-      top: -10px;
-    }
-
+  }
+  @media (max-width: 321px) {
     &::after {
-      left: 3%;
-      top: 313px;
-    }
-
-    img {
-      width: 100%;
-      border-radius: 20px;
-      max-width: 280px;
+      left: -23%;
+      top: 168px;
     }
   }
 `;
@@ -204,11 +195,11 @@ export const SpreadAcademyQuote = styled.div`
   top: -25px;
   transform: translateX(50%);
   background: #fe4f52;
-  justify-content: flex-start;
   border-radius: 3px;
   padding: 10px;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   width: 100%;
   max-width: 230px;
   img {
@@ -217,6 +208,10 @@ export const SpreadAcademyQuote = styled.div`
     height: 30px;
     border-radius: 50%;
     margin: 0 10px 0 0;
+  }
+  @media (max-width: 769px) {
+    max-width: 180px;
+    width: 100%;
   }
   ${smallScreen} {
     top: 10px;
@@ -230,7 +225,7 @@ export const SpanStyledText = styled.div`
   font-weight: 600;
   font-size: 12px;
   line-height: 1.5;
-  color: white;
+  color: #fff;
   text-align: left;
   ${smallScreen} {
     font-size: 8px;
@@ -301,16 +296,16 @@ export const StyledParagraph = styled.div`
   width: 100%;
   max-width: 440px;
   margin: 12px 0 0 17px;
+  font-family: 'ProximaNova', san-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  font-family: 'ProximaNova', san-serif;
   @media (max-width: 991px) {
     font-size: 12px;
     margin: 0 0 0 -8px;
   }
   @media (max-width: 776px) {
-    max-width: 400px;
+    max-width: 350px;
     width: 100%;
     margin: 0 0 0 -20px;
     font-size: 12px;

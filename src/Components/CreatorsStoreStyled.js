@@ -101,13 +101,14 @@ export const StyledRateBoxHeading = styled.h5`
   font-size: 14px;
   font-family: 'ProximaNova', sans-serif;
   line-height: 14px;
+  font-weight: bold;
   color: #ff4e53;
   margin: 2px;
   font-weight: bold;
   @media (max-width: 991px) {
     font-size: 12px;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 767px) {
     font-size: 12px;
   }
 `;
@@ -122,7 +123,7 @@ export const StyledRateParagraph = styled.p`
     font-size: 10px;
   }
 
-  @media (max-width: 720px) {
+  @media (max-width: 767px) {
     font-size: 10px;
   }
 `;
@@ -159,7 +160,7 @@ export const CreatorsStore = styled.div`
 
   @media (max-width: 766px) {
     font-size: 11px;
-    margin-left: -20px;
+    margin: 0 0 0 -20px;
   }
 `;
 
@@ -180,14 +181,9 @@ export const PopupWrapper = styled.div`
   }
 
   @media (max-width: 991px) {
-    top: -13px;
-    left: -45px;
     position: absolute;
-  }
-  @media (max-width: 870px) {
     top: -13px;
-    left: -128px;
-    position: absolute;
+    left: -120px;
   }
 
   @media (max-width: 766px) {
@@ -198,12 +194,13 @@ export const PopupWrapper = styled.div`
 export const PopUpHeading = styled.h2`
   margin: 0 auto;
   z-index: 1;
-  top: 324px;
   position: absolute;
+  top: 324px;
   left: 303px;
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: #fff;
+
   @media (max-width: 991px) {
     font-size: 12px;
   }
@@ -227,14 +224,15 @@ export const StyledText = styled.div`
   font-size: 42px;
   line-height: 47px;
   font-weight: 500;
-  margin-left: 17px;
+  margin: 0 0 0 17px;
+
   @media (max-width: 991px) {
     font-size: 34px;
   }
   @media (max-width: 776px) {
     max-width: 304px;
     width: 100%;
-    margin-left: -20px;
+    margin: 0 0 0 -20px;
     font-size: 28px;
     line-height: 35px;
   }
@@ -242,20 +240,22 @@ export const StyledText = styled.div`
 
 export const StyledParagraph = styled.div`
   width: 100%;
-  margin-left: 17px;
   max-width: 440px;
-  margin-top: 12px;
+  margin: 12px 0 0 17px;
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   font-family: 'ProximaNova', san-serif;
+
   @media (max-width: 991px) {
+    width: 100%;
+    max-width: 300px;
     font-size: 12px;
   }
   @media (max-width: 776px) {
     max-width: 350px;
     width: 100%;
-    margin-left: -20px;
+    margin: 0 0 0 -20px;
     font-size: 12px;
     line-height: 23px;
   }
