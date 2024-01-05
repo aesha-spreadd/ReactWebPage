@@ -96,7 +96,7 @@ export const CreatorStyledRateBox = styled.div`
 
   p {
     font-family: 'ProximaNova', sans-serif;
-    margin: 0px;
+    margin: 0;
     font-size: 14px;
     line-height: 22px;
   }
@@ -173,11 +173,11 @@ export const PopupWrapper = styled.div`
       rgb(240, 97, 86) 70%,
       rgba(240, 97, 86, 0.4) 100%
     );
-    left: -65px;
+    left: -1425px;
     transform: translateX(-55%);
     padding: 20px;
     opacity: 0.8;
-    width: 1250px;
+    width: 4250px;
     height: 60px;
     display: flex;
     top: 285px;
@@ -185,9 +185,9 @@ export const PopupWrapper = styled.div`
   }
 
   h2 {
-    margin-left: auto;
+    margin: 0 auto;
     z-index: 1;
-    top: 307px;
+    top: 324px;
     position: absolute;
     left: 303px;
     font-size: 20px;
@@ -199,6 +199,9 @@ export const PopupWrapper = styled.div`
     top: -13px;
     left: -45px;
     position: absolute;
+    h2 {
+      font-size: 12px;
+    }
   }
   @media (max-width: 870px) {
     top: -13px;

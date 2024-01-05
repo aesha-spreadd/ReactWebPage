@@ -2,13 +2,16 @@ import styled from 'styled-components';
 import { GlobalStyles } from './CreatorsStoreStyled';
 
 const smallScreen = `@media (max-width: 720px)`;
-
 export const SectionSpreadAcademy = styled.section`
   position: relative;
   background: rgb(255, 246, 246);
   margin: 0 auto;
   padding: 100px 0;
   font-family: 'ProximaNova', san-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &::before {
     content: '';
@@ -23,23 +26,18 @@ export const SectionSpreadAcademy = styled.section`
       display: none;
     }
   }
-
-  ${smallScreen} {
-    height: auto;
-    margin: 0;
-  }
 `;
 
 export const SpreadAcademyContainer = styled.div`
   width: 100%;
   margin: 0 auto;
-  max-width: 1500px;
+  max-width: 1200px;
 `;
 
 export const SpreadInnerWrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1200px;
+  max-width: 1500px;
 
   ${smallScreen} {
     flex-direction: column-reverse;
@@ -49,8 +47,12 @@ export const SpreadInnerWrapper = styled.div`
 export const SpreadLeftInner = styled.div`
   max-width: 49%;
   width: 100%;
-  margin: 0 70px 0 0;
-
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 0 0 40px;
+  @media (max-width: 870px) {
+    margin: 0 90px 0 40px;
+  }
   ${smallScreen} {
     margin: 25px 10px 0 90px;
   }
@@ -76,13 +78,13 @@ export const SpreadImageWrapper = styled.div`
   }
 
   &::before {
-    left: 16%;
-    top: -20px;
+    left: 8%;
+    top: -32px;
     background: url('https://spreadd.io/assets/home/round-patch.svg') no-repeat;
   }
 
   &::after {
-    left: 14%;
+    left: 5%;
     top: 290px;
     z-index: 1;
     background: url('https://spreadd.io/assets/home/dot-patch.svg') no-repeat;
@@ -92,6 +94,7 @@ export const SpreadImageWrapper = styled.div`
     width: 100%;
     border-radius: 20px;
     max-width: 280px;
+    margin: 0 0 0 50px;
   }
   @media (max-width: 1200px) {
     &::before,
@@ -172,13 +175,13 @@ export const SpreadImageWrapper = styled.div`
     }
 
     &::before {
-      left: -31px;
+      left: 28px;
       top: -10px;
     }
 
     &::after {
-      left: -14%;
-      top: 300px;
+      left: 4%;
+      top: 312px;
     }
 
     img {
@@ -196,12 +199,12 @@ export const SpreadImageWrapper = styled.div`
     }
 
     &::before {
-      left: -30px;
+      left: 29px;
       top: -10px;
     }
 
     &::after {
-      left: -14%;
+      left: 3%;
       top: 320px;
     }
 
@@ -209,7 +212,6 @@ export const SpreadImageWrapper = styled.div`
       width: 100%;
       border-radius: 20px;
       max-width: 280px;
-      margin-top: 20px;
     }
   }
 `;
@@ -217,7 +219,7 @@ export const SpreadImageWrapper = styled.div`
 export const SpreadAcademyQuote = styled.div`
   position: absolute;
   top: -25px;
-  right: 43%;
+
   transform: translateX(50%);
   background: rgb(254, 79, 82);
   justify-content: flex-start;
@@ -256,11 +258,18 @@ export const SpanStyledText = styled.div`
 export const SpreadRightInner = styled.div`
   max-width: 49%;
   width: 100%;
-  margin: 0 0 0 100px;
-
+  margin: 0 30px 0 20px;
+  display: flex;
+  justify-content: flex-end;
+  @media (max-width: 991px) {
+    max-width: 100%;
+    margin: 0px 0 0 42px;
+    justify-content: flex-start;
+  }
   ${smallScreen} {
     max-width: 100%;
     margin: -79px 0 0 42px;
+    justify-content: flex-start;
   }
 `;
 
@@ -317,9 +326,9 @@ export const StyledTitle = styled.div`
     margin: 0 -70px 0 0;
   }
   @media (max-width: 970px) {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
-    line-height: 12px;
+    line-height: 38px;
   }
 `;
 
