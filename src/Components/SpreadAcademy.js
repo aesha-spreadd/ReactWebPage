@@ -13,8 +13,6 @@ import {
   SpreadAcadameyTag,
   StyledParagraph,
   StyledText,
-  StyledParagraphText,
-  StyledTitle,
 } from './SpreadAcademeyStyled';
 
 const SpreadAcademy = () => {
@@ -46,23 +44,18 @@ const SpreadAcademy = () => {
               <SpreadRightDetails>
                 <SpreadAcadameyTag>Spreadd Academy</SpreadAcadameyTag>
                 <StyledText>
-                  <StyledTitle>Create courses and</StyledTitle>
-                  <StyledTitle>curriculums for your</StyledTitle>
-                  <StyledTitle>collaborators/followers</StyledTitle>
+                  <div>
+                    Create courses and curriculums for your
+                    collaborators/followers
+                  </div>
                 </StyledText>
                 <StyledParagraph>
-                  <StyledParagraphText>
+                  <div>
                     We have got a host of features that can enable you to
-                    skyrocket your
-                  </StyledParagraphText>
-                  <StyledParagraphText>
-                    workshop and course sales. Empower your collaborators by
-                    delivering
-                  </StyledParagraphText>
-                  <StyledParagraphText>
-                    deeply engaging experience wherever they are, anytime,
-                    anywhere.
-                  </StyledParagraphText>
+                    skyrocket your workshop and course sales. Empower your
+                    collaborators by delivering deeply engaging experience
+                    wherever they are, anytime, anywhere.
+                  </div>
                 </StyledParagraph>
               </SpreadRightDetails>
             </SpreadRightInner>

@@ -4,17 +4,21 @@ import { GlobalStyles } from './CreatorsStoreStyled';
 const smallScreen = `@media (max-width: 720px)`;
 export const SectionSpreadAcademy = styled.section`
   position: relative;
-  background: rgb(255, 246, 246);
+  background: #fff6f6;
   margin: 0 auto;
   padding: 100px 0;
   font-family: 'ProximaNova', san-serif;
-
   display: flex;
   justify-content: center;
   align-items: center;
 
+  ${smallScreen} {
+    padding: 90px 0;
+  }
+
   &::before {
     content: '';
+    left: 0;
     position: absolute;
     top: 18px;
     background: url('https://spreadd.io/assets/home/left-dot-patch.svg')
@@ -41,6 +45,7 @@ export const SpreadInnerWrapper = styled.div`
 
   ${smallScreen} {
     flex-direction: column-reverse;
+    max-width: 1500px;
   }
 `;
 
@@ -96,7 +101,7 @@ export const SpreadImageWrapper = styled.div`
     max-width: 280px;
     margin: 0 0 0 50px;
   }
-  @media (max-width: 1200px) {
+  @media (max-width: 1200px) and @media(max-width:1100px) {
     &::before,
     &::after {
       width: 96px;
@@ -117,29 +122,7 @@ export const SpreadImageWrapper = styled.div`
       width: 100%;
       border-radius: 20px;
       max-width: 280px;
-      margin-top: 20px;
-    }
-  }
-  @media (max-width: 1100px) {
-    &::before {
-      left: 2px;
-      top: -10px;
-      width: 96px;
-      height: 96px;
-    }
-
-    &::after {
-      left: 1%;
-      top: 300px;
-      width: 96px;
-      height: 96px;
-    }
-
-    img {
-      width: 100%;
-      border-radius: 20px;
-      max-width: 280px;
-      margin-top: 20px;
+      margin: 20px 0 0;
     }
   }
 
@@ -164,7 +147,7 @@ export const SpreadImageWrapper = styled.div`
       width: 100%;
       border-radius: 20px;
       max-width: 280px;
-      margin-top: 20px;
+      margin: 20px 0 0;
     }
   }
   @media (max-width: 870px) {
@@ -188,7 +171,7 @@ export const SpreadImageWrapper = styled.div`
       width: 100%;
       border-radius: 20px;
       max-width: 280px;
-      margin-top: 20px;
+      margin: 20px 0 0;
     }
   }
   ${smallScreen} {
@@ -205,7 +188,7 @@ export const SpreadImageWrapper = styled.div`
 
     &::after {
       left: 3%;
-      top: 320px;
+      top: 313px;
     }
 
     img {
@@ -219,9 +202,8 @@ export const SpreadImageWrapper = styled.div`
 export const SpreadAcademyQuote = styled.div`
   position: absolute;
   top: -25px;
-
   transform: translateX(50%);
-  background: rgb(254, 79, 82);
+  background: #fe4f52;
   justify-content: flex-start;
   border-radius: 3px;
   padding: 10px;
@@ -234,7 +216,7 @@ export const SpreadAcademyQuote = styled.div`
     width: 100%;
     height: 30px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
   }
   ${smallScreen} {
     top: 10px;
@@ -284,7 +266,7 @@ export const SpreadAcadameyTag = styled.div`
   color: black;
   background: linear-gradient(50deg, white, transparent);
   padding: 8px 12px;
-  margin-bottom: 25px;
+  margin: 0 0 25px 18px;
   width: max-content;
   position: relative;
   left: 15%;
@@ -297,57 +279,41 @@ export const SpreadAcadameyTag = styled.div`
 `;
 
 export const StyledText = styled.div`
-  max-height: 144px;
+  max-width: 440px;
   width: 100%;
-  height: auto;
-  font-size: 40px;
-  font-weight: 400;
-  font-family: 'ProximaNova', san-serif;
-
-  ${smallScreen} {
-    max-width: 100%;
-    position: absolute;
-    font-size: 18px;
-    line-height: 22px;
-    margin: -20px 0 0 -30px;
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0 0 0 17px;
+  @media (max-width: 991px) {
+    font-size: 29px;
+    margin: 0 0 0 -8px;
   }
-  @media (max-width: 970px) {
-    max-width: 100%;
-    position: absolute;
-    font-size: 18px;
-    line-height: 22px;
-    margin: -20px 0 0 -30px;
-  }
-`;
-
-export const StyledTitle = styled.div`
-  @media (max-width: 720px) {
-    font-size: 20px;
-    margin: 0 -70px 0 0;
-  }
-  @media (max-width: 970px) {
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 38px;
+  @media (max-width: 776px) {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 0 0 -20px;
+    font-size: 28px;
+    line-height: 35px;
   }
 `;
 
 export const StyledParagraph = styled.div`
+  width: 100%;
+  max-width: 440px;
+  margin: 12px 0 0 17px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 23px;
-  margin: 28px 0 0 5px;
+  line-height: 20px;
   font-family: 'ProximaNova', san-serif;
-
-  @media (max-width: 720px) {
-    font-size: 11px;
-    line-height: 18px;
-    margin: 90px 50px 0 -30px;
+  @media (max-width: 991px) {
+    font-size: 12px;
+    margin: 0 0 0 -8px;
   }
-  @media (max-width: 970px) {
-    font-size: 11px;
-    margin: 130px 50px 0 -30px;
+  @media (max-width: 776px) {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 0 0 -20px;
+    font-size: 12px;
+    line-height: 23px;
   }
 `;
-
-export const StyledParagraphText = styled.div``;

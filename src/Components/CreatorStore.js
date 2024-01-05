@@ -9,21 +9,20 @@ import {
   CreatorStyledRateBox,
   ImageWrapper,
   StyledText,
-  StyledTitle,
-  StyledSpan,
   CreatorsStore,
+  StyledRateBoxHeading,
   RightInnerWrapper,
   PopupWrapper,
   RightWrapperContent,
-  StyledSpanText,
   StyledParagraph,
+  StyledRateParagraph,
+  PopUpHeading,
   GlobalStyles,
 } from './CreatorsStoreStyled';
 
 const CreatorStore = () => {
   return (
     <div>
-      <GlobalStyles />
       <CampaignMarketSection>
         <CampaignMarketContainer>
           <CampaignMarketParticlesWrapper>
@@ -35,8 +34,8 @@ const CreatorStore = () => {
           <CreatorStyledInnerWrapper>
             <CreatorStyledLeftInner>
               <CreatorStyledRateBox>
-                <h5>100+</h5>
-                <p>Happy Customers</p>
+                <StyledRateBoxHeading>100+</StyledRateBoxHeading>
+                <StyledRateParagraph>Happy Customers</StyledRateParagraph>
               </CreatorStyledRateBox>
               <ImageWrapper>
                 <img
@@ -45,28 +44,23 @@ const CreatorStore = () => {
                 />
               </ImageWrapper>
               <PopupWrapper>
-                <h2>100+ curated products</h2>
+                <PopUpHeading>100+ curated products</PopUpHeading>
               </PopupWrapper>
             </CreatorStyledLeftInner>
             <RightInnerWrapper>
               <RightWrapperContent>
                 <CreatorsStore>Creator Store</CreatorsStore>
                 <StyledText>
-                  <StyledTitle>Curate your</StyledTitle>
-                  <StyledTitle>products and turn</StyledTitle>
-                  <StyledTitle>your content shop-</StyledTitle>
-                  <StyledTitle>able</StyledTitle>
+                  <div>
+                    Curate your products and turn your content shop- able
+                  </div>
                 </StyledText>
                 <StyledParagraph>
-                  <StyledSpanText>
-                    Apply to create your own store. You can choose brands
-                  </StyledSpanText>
-                  <StyledSpanText>
-                    and display their product within your own store. You can
-                  </StyledSpanText>
-                  <StyledSpanText>
-                    get paid on every sale brand makes through you
-                  </StyledSpanText>
+                  <div>
+                    Apply to create your own store. You can choose brands and
+                    display their product within your own store. You can get
+                    paid on every sale brand makes through you.
+                  </div>
                 </StyledParagraph>
               </RightWrapperContent>
             </RightInnerWrapper>
