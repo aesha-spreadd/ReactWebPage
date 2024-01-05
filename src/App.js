@@ -9,8 +9,7 @@ const App = () => {
   return (
     <div>
       <GlobalStyles />
-
-      <CreatorStore />
+      <Partnership />
     </div>
   );
 };

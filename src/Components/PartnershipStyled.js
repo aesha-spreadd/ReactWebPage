@@ -17,8 +17,7 @@ export const PartnerShipSection = styled.div`
 export const PartnerShipContainer = styled.div`
   max-width: 1100px;
   margin: 0 auto;
-  min-height: 70vh;
-  justify-content: space-around;
+  width: 100%;
 `;
 
 export const PartnerShipContent = styled.div`
