@@ -27,21 +27,13 @@ const Partnership = () => {
             </ParticalWrapper>
             <PartnershipDescription>
               <StyledHeading>
-                <StyledSpanText>We’re as</StyledSpanText>
-                <StyledSpanText>smooth as our</StyledSpanText>
-                <StyledSpanText>collaborations.</StyledSpanText>
+                We’re as smooth as our collaborations.
               </StyledHeading>
               <StyledParagraph>
-                <StyledSpanParagraph>
-                  We work with creators and brands from Dubai and India.
-                </StyledSpanParagraph>
-                <StyledSpanParagraph>
-                  We support more than 5+ brands and 200+ creators. We
-                </StyledSpanParagraph>
-                <StyledSpanParagraph>
-                  proudly facilitate faster growth for global companies in
-                </StyledSpanParagraph>
-                <StyledSpanParagraph>web3 and web3.</StyledSpanParagraph>
+                We’re as smooth as our collaborations. We work with creators and
+                brands from Dubai and India. We support more than 5+ brands and
+                200+ creators. We proudly facilitate faster growth for global
+                companies in web3 and web3.
               </StyledParagraph>
             </PartnershipDescription>
           </PartnerShipContent>
