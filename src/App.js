@@ -1,12 +1,11 @@
 import React from 'react';
-import CreatorStore from './Components/CreatorStore';
-import SpreadAcademy from './Components/SpreadAcademy';
+
+import OnchainProfile from './Components/OnchainProfile';
 
 const App = () => {
   return (
     <div>
-      <CreatorStore />
-      <SpreadAcademy />
+      <OnchainProfile />
     </div>
   );
 };
