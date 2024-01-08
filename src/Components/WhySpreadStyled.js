@@ -28,7 +28,6 @@ export const StyledHeading = styled.div`
 export const StyledHeadingTitle = styled.h3`
   max-height: 30px;
   height:auto;
-  font-family: 'ProximaNova', san-serif;
   font-size:24px;
   font-weight:500;
   transform: none;
@@ -37,7 +36,6 @@ export const StyledHeadingTitle = styled.h3`
 
 export const StyledHeadingParagraph = styled.p`
   margin: 0 0 16px;
-  font-family: 'ProximaNova', san-serif;
   font-size: 14px;
   font-weight: 400;
 `;
@@ -121,17 +119,15 @@ export const WhySpreadImageWrapper = styled.div`
   }
 }`;
 
-export const StyledCardTitle = styled.h5`
+export const StyledCardTitle = styled.h2`
   margin: 0 0 8px;
   color: #212b36;
   font-size: 15px;
-  font-family: 'ProximaNova', san-serif;
-  font-weight: bold;
+  font-weight: 700;
 `;
 
 export const StyledCardParagrah = styled.p`
   margin: 0;
-  font-family: 'ProximaNova', san-serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
 `;

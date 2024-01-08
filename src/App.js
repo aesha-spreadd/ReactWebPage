@@ -10,6 +10,10 @@ const App = () => {
   return (
     <div>
       <GlobalStyles />
+      <WhySpread />
+      <Partnership />
+      <Collabration />
+      <CampaignMarket />
       <OnchainProfile />
     </div>
   );

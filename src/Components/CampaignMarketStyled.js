@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const CampaignMarketSection = styled.div`
-  background: rgb(255, 246, 246);
+  background: #fff6f6;
   position: relative;
   padding: 100px 0;
   z-index: -1;
@@ -77,7 +77,7 @@ export const CampaignMarketPopBox = styled.div`
     rgba(255, 255, 255, 0.1) 0.46%,
     rgba(255, 255, 255, 0.1) 100%
   );
-  border: 1px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid #fffefe;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
   backdrop-filter: blur(12.2941px);
   border-radius: 5px;
@@ -115,7 +115,7 @@ export const CampaignMarketPopBoxBottom = styled.div`
     rgba(255, 255, 255, 0.1) 0.46%,
     rgba(255, 255, 255, 0.1) 100%
   );
-  border: 1px solid rgba(255, 255, 255, 0.75);
+  border: 1px solid #fffefe;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
   backdrop-filter: blur(12.2941px);
   border-radius: 5px;

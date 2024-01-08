@@ -36,15 +36,13 @@ export const OnchainProfileTag = styled.h3`
   color: #fff;
   font-size: 11px;
   padding: 12px 10px;
-  margin: 0 0 2%;
 `;
 
 export const OnchainProfileHeading = styled.h2`
   color: #fff;
   font-weight: 400;
   font-size: 31px;
-  line-height: 52px;
-  margin: 0 0 2%;
+  line-height: 40px;
 
   @media (max-width: 767px) {
     font-size: 23px;
@@ -65,7 +63,6 @@ export const OnchainProfileSubHeading = styled.p`
 
 export const OnchainProfileMatrixBox = styled.div`
   display: flex;
-  margin-top: 2%;
 `;
 
 export const OnchainProfileMatrixImage = styled.div`
@@ -98,7 +95,7 @@ export const OnchainProfileWave = styled.div`
   height: 116px;
   width: 100%;
   background-size: contain;
-  margin-top: -2px;
+  margin: -2px 0 0;
 
   @media (max-width: 767px) {
     height: 62px;
@@ -112,17 +109,17 @@ export const OnchainProfileSocialMedia = styled.div`
 export const OnchainProfileInnerPart = styled.div`
   max-width: 900px;
   width: 100%;
-  margin: 0px auto;
+  margin: 0 auto;
 `;
 
 export const OnchainProfileInnerImage = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: -140px;
+  margin: -140px 0 0;
 
   @media (max-width: 767px) {
-    margin-top: -140px;
+    margin: -140px 0 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;

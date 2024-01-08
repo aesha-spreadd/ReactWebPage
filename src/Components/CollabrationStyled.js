@@ -50,14 +50,12 @@ export const StyledCollabrationHeading = styled.h3`
   margin: 131px 0 0;
   font-size: 40px;
   font-weight: 400;
-  font-family: 'ProximaNova', sans-serif;
   line-height: 43px;
 
   @media (max-width: 768px) {
     margin: 87px 0 0;
     font-size: 29px;
     font-weight: 400;
-    font-family: 'ProximaNova', sans-serif;
     line-height: 40px;
   }
 `;
@@ -156,10 +154,8 @@ export const StyledSvgText = styled.h4`
 `;
 
 export const SvgDiv = styled.div`
-  border-top: 10px solid transparent;
-  border-left: 10px solid #fff;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  border: 10px solid transparent;
+  border-left-color: #fff;
   width: 2px;
   position: absolute;
   top: 4px;
