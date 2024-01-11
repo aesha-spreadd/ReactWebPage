@@ -37,13 +37,13 @@ const Collabration = () => {
                 <CollabrationImage>
                   <img
                     src="https://spreadd.io/23139c22a9dbe19db52db946b5655757.jpg"
-                    alt="no image"
+                    alt="Seamless Collaboration on Spreadd"
                   />
                 </CollabrationImage>
                 <CollabrationSecondImage>
                   <img
                     src="https://spreadd.io/23139c22a9dbe19db52db946b5655757.jpg"
-                    alt="no image"
+                    alt="Personalised content insights"
                   />
                 </CollabrationSecondImage>
                 <CollabrationSvg>
