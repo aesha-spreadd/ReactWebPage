@@ -32,7 +32,7 @@ const WhySpread = () => {
             <WhySpreadStyledBox>
               <WhySpreadImageWrapper>
                 <img
-                  src="  https://spreadd.io/assets/home/whyspreadd/noname.svg"
+                  src="https://spreadd.io/assets/home/whyspreadd/noname.svg"
                   alt="homeicon"
                 />
               </WhySpreadImageWrapper>
@@ -47,7 +47,7 @@ const WhySpread = () => {
               <WhySpreadImageWrapper>
                 <img
                   src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg"
-                  alt="marketplace-icon"
+                  alt="marketplaceicon"
                 />
               </WhySpreadImageWrapper>
               <StyledCardTitle>NFT marketplace</StyledCardTitle>

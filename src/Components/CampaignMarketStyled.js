@@ -47,6 +47,7 @@ export const CampaignMarketParticals = styled.div`
   position: absolute;
   top: 18px;
   right: 0px;
+
   img {
     max-width: 28px;
     width: 100%;

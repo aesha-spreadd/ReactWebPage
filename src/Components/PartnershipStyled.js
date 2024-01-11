@@ -108,23 +108,23 @@ export const StyledHeading = styled.h2`
   @media (max-width: 767px) {
     font-size: 42px;
     line-height: 45px;
-    width: 100%;
     max-width: 296px;
+    width: 100%;
   }
 
   @media (max-width: 575px) {
     font-size: 46px;
     line-height: 40px;
-    width: 100%;
     max-width: 296px;
+    width: 100%;
   }
 
   @media (max-width: 320px) {
     font-weight: 100;
     font-size: 46px;
     line-height: 46px;
-    width: 100%;
     max-width: 296px;
+    width: 100%;
   }
 `;
 

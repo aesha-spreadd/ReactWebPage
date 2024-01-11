@@ -104,8 +104,8 @@ export const WhySpreadStyledBox = styled.div`
   font-size: 24px;
 
   @media (max-width: 991px) {
-    width: 100%;
     max-width: 80%;
+    width: 100%;
     height: auto;
     min-height: 190px;
     font-size: 10px;

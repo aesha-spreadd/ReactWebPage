@@ -29,7 +29,7 @@ const CampaignMarket = () => {
             <CampaignMarketParticals>
               <img
                 src={'https://spreadd.io/assets/home/left-dot-patch.svg'}
-                alt="Logo"
+                alt="leftdotpatch"
               />
             </CampaignMarketParticals>
             <CampaignMarketLeftInner>
@@ -37,7 +37,7 @@ const CampaignMarket = () => {
                 <CampaignMarketIconBox>
                   <img
                     src="https://spreadd.io/assets/home/setting.svg"
-                    alt="Settingicon"
+                    alt="settingsicon"
                   />
                 </CampaignMarketIconBox>
                 <CampaignMarketPopHeading>
@@ -47,14 +47,14 @@ const CampaignMarket = () => {
               <CampaignMarketImage>
                 <img
                   src="https://spreadd.io/assets/home/marketplace.jpg"
-                  alt="MarketPlace-img"
+                  alt="marketplaceimg"
                 />
               </CampaignMarketImage>
               <CampaignMarketPopBoxBottom>
                 <CampaignMarketBottomIcon>
                   <img
                     src="https://spreadd.io/assets/home/bulb.svg"
-                    alt="bulb-img"
+                    alt="bulbimg"
                   />
                 </CampaignMarketBottomIcon>
                 <CampaignMarketBottomIconHeading>
