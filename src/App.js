@@ -1,14 +1,20 @@
 import React from 'react';
-import CreatorStore from './Components/CreatorStore';
-import SpreadAcademy from './Components/SpreadAcademy';
-import { GlobalStyles } from './Components/CreatorsStoreStyled';
+import Collabration from './Components/Collabration';
+import WhySpread from './Components/WhySpread';
+import Partnership from './Components/Partnership';
+import { GlobalStyles } from './Components/PartnershipStyled';
+import CampaignMarket from './Components/CampaignMarket';
+import OnchainProfile from './Components/OnchainProfile';
 
 const App = () => {
   return (
     <div>
       <GlobalStyles />
-      <SpreadAcademy />
-      <CreatorStore />
+      <WhySpread />
+      <Partnership />
+      <Collabration />
+      <CampaignMarket />
+      <OnchainProfile />
     </div>
   );
 };
