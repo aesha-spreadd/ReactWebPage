@@ -7,7 +7,7 @@ export const CampaignMarketSection = styled.div`
   z-index: -1;
   font-family: ProximaNova, 'sans-serif';
 
-  @media (max-width) {
+  @media (max-width: 776px) {
     padding: 50px 0;
   }
 `;
@@ -130,6 +130,7 @@ export const CampaignMarketBottomIcon = styled.div`
   position: absolute;
   right: 30px;
   top: -15px;
+
   img {
     vertical-align: middle;
     border-style: none;

@@ -4,6 +4,7 @@ export const WhySpreadSection = styled.div`
   background: #fff;
   padding: 80px 0;
   font-family: 'ProximaNova', san-serif;
+
   @media (max-width: 991px) {
     padding: 50px 0;
   }
@@ -113,6 +114,7 @@ export const WhySpreadStyledBox = styled.div`
 
 export const WhySpreadImageWrapper = styled.div`
   margin:0 0 20px 0;
+  
   img {
     vertical-align: middle;
     border-style: none;

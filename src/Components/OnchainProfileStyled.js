@@ -55,6 +55,7 @@ export const OnchainProfileSubHeading = styled.p`
   font-size: 11px;
   font-weight: 400;
   line-height: 26px;
+
   @media (max-width: 767px) {
     font-size: 11px;
     line-height: 21px;

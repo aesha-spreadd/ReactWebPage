@@ -14,6 +14,7 @@ export const PartnerShipSection = styled.div`
   margin: 0 auto;
   padding: 40px;
   font-family: 'ProximaNova', sans-serif;
+
   @media (max-width: 991px) {
     padding: 15px;
   }
@@ -30,6 +31,7 @@ export const PartnerShipContent = styled.div`
   justify-content: center;
   align-items: center;
   position: relative;
+
   @media (max-width: 480px) {
     flex-direction: column;
     margin: 0 0 66px 0;
@@ -43,24 +45,29 @@ export const ParticalWrapper = styled.div`
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) translateX(0px);
   object-fit: cover;
+
   img {
     vertical-align: middle;
     border-style: none;
     max-width: 400px;
     width: 100%;
   }
+
   @media (max-width: 480px) {
     max-width: 332px;
     width: 100%;
+
     img {
       max-width: 250px;
       width: 100%;
       margin: 40px 0 0 20px;
     }
   }
+
   @media (max-width: 991px) {
     max-width: 332px;
     width: 100%;
+
     img {
       max-width: 250px;
       width: 100%;
@@ -73,6 +80,7 @@ export const PartnershipDescription = styled.div`
   display: flex;
   margin: 0 0 -36px;
   flex-direction: column;
+
   @media (max-width: 480px) {
     order: -1;
     align-self: flex-start;
@@ -96,18 +104,21 @@ export const StyledHeading = styled.h2`
     font-size: 25px;
     line-height: 30px;
   }
+
   @media (max-width: 767px) {
     font-size: 42px;
     line-height: 45px;
     width: 100%;
     max-width: 296px;
   }
+
   @media (max-width: 575px) {
     font-size: 46px;
     line-height: 40px;
     width: 100%;
     max-width: 296px;
   }
+
   @media (max-width: 320px) {
     font-weight: 100;
     font-size: 46px;
@@ -123,6 +134,7 @@ export const StyledParagraph = styled.p`
   max-width: 500px;
   width: 100%;
   margin: 5px 0 0 20px;
+
   @media (max-width: 991px) {
     margin: 20px 0 0;
     max-width: 300px;
@@ -136,6 +148,7 @@ export const PartnershipStyledPartner = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   @media (max-width: 480px) {
     padding: 0 0 0 35px;
     flex-direction: column;
@@ -146,9 +159,11 @@ export const PartnershipStyledPartner = styled.div`
 
 export const PartnershipTrustWrapper = styled.div`
   width: 100%;
+
   @media (max-width: 480px) {
     margin: 0 0 10px -126px;
   }
+
   @media (max-width: 766px) {
     margin: 0;
   }
@@ -162,6 +177,7 @@ export const PartnershipBorder = styled.div`
   margin: 0 0 14px;
   border-radius: 100px;
   bottom: 2px;
+
   @media (max-width: 991px) {
     top: 21px;
     left: 0;
@@ -174,6 +190,7 @@ export const StyledFooterHeading = styled.div`
   font-size: 18px;
   bottom: 9px;
   left: 88px;
+
   @media (max-width: 991px) {
     font-size: 14px;
     top: 14px;
@@ -189,11 +206,13 @@ export const ParnternshipImages = styled.div`
   flex-wrap: wrap;
   max-width: 50%;
   width: 100%;
+
   img {
     max-width: 120px;
     width: 100%;
     object-fit: contain;
   }
+
   @media (max-width: 991px) {
     align-items: flex-start;
     gap: 40px;
@@ -217,6 +236,7 @@ export const ParnternshipImages = styled.div`
       width: 100%;
     }
   }
+
   @media (max-width: 567px) {
     max-width: 400px;
     width: 100%;

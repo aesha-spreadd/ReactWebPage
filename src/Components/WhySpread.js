@@ -31,7 +31,10 @@ const WhySpread = () => {
           <WhySpreadStyledBoxWrapper>
             <WhySpreadStyledBox>
               <WhySpreadImageWrapper>
-                <img src="  https://spreadd.io/assets/home/whyspreadd/noname.svg" />
+                <img
+                  src="  https://spreadd.io/assets/home/whyspreadd/noname.svg"
+                  alt="homeicon"
+                />
               </WhySpreadImageWrapper>
               <StyledCardTitle>No middle-man</StyledCardTitle>
               <StyledCardParagrah>
@@ -42,7 +45,10 @@ const WhySpread = () => {
             </WhySpreadStyledBox>
             <WhySpreadStyledBox>
               <WhySpreadImageWrapper>
-                <img src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg" />
+                <img
+                  src="https://spreadd.io/assets/home/whyspreadd/marketplace.svg"
+                  alt="marketplace-icon"
+                />
               </WhySpreadImageWrapper>
               <StyledCardTitle>NFT marketplace</StyledCardTitle>
               <StyledCardParagrah>
@@ -54,7 +60,10 @@ const WhySpread = () => {
             </WhySpreadStyledBox>
             <WhySpreadStyledBox>
               <WhySpreadImageWrapper>
-                <img src="https://spreadd.io/assets/home/whyspreadd/sales.svg" />
+                <img
+                  src="https://spreadd.io/assets/home/whyspreadd/sales.svg"
+                  alt="svg-icon"
+                />
               </WhySpreadImageWrapper>
               <StyledCardTitle>Increase your product sale</StyledCardTitle>
               <StyledCardParagrah>

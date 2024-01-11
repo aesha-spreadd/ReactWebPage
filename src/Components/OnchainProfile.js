@@ -63,10 +63,16 @@ const OnchainProfile = () => {
             <OnchainProfileInnerPart>
               <OnchainProfileInnerImage>
                 <OnchainProfileLeftInner>
-                  <img src="https://spreadd.io/assets/home/socialMedia.png" />
+                  <img
+                    src="https://spreadd.io/assets/home/socialMedia.png"
+                    alt="Socialmeia Icon"
+                  />
                 </OnchainProfileLeftInner>
                 <OnchainProfileRightInner>
-                  <img src="	https://spreadd.io/assets/home/store.png" />
+                  <img
+                    src="	https://spreadd.io/assets/home/store.png"
+                    alt="store-icon"
+                  />
                 </OnchainProfileRightInner>
               </OnchainProfileInnerImage>
             </OnchainProfileInnerPart>

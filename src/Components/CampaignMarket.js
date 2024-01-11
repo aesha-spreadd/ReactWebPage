@@ -35,18 +35,27 @@ const CampaignMarket = () => {
             <CampaignMarketLeftInner>
               <CampaignMarketPopBox>
                 <CampaignMarketIconBox>
-                  <img src="https://spreadd.io/assets/home/setting.svg" />
+                  <img
+                    src="https://spreadd.io/assets/home/setting.svg"
+                    alt="Settingicon"
+                  />
                 </CampaignMarketIconBox>
                 <CampaignMarketPopHeading>
                   Available Solution
                 </CampaignMarketPopHeading>
               </CampaignMarketPopBox>
               <CampaignMarketImage>
-                <img src="https://spreadd.io/assets/home/marketplace.jpg" />
+                <img
+                  src="https://spreadd.io/assets/home/marketplace.jpg"
+                  alt="MarketPlace-img"
+                />
               </CampaignMarketImage>
               <CampaignMarketPopBoxBottom>
                 <CampaignMarketBottomIcon>
-                  <img src="https://spreadd.io/assets/home/bulb.svg" />
+                  <img
+                    src="https://spreadd.io/assets/home/bulb.svg"
+                    alt="bulb-img"
+                  />
                 </CampaignMarketBottomIcon>
                 <CampaignMarketBottomIconHeading>
                   Easy Methods
